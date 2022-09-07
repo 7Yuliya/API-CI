@@ -49,5 +49,5 @@ class MobileBankApiTestV4 {
                 .then()
                 .body("[1].currency", equalTo("USD"))
         ;
-}
+    }
 }
